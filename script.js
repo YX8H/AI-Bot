@@ -61,6 +61,9 @@ function getBotReply(text) {
 
     if (text.includes("hello"))
         return "Hey there! 👋";
+    
+    if (text.includes("fuck"))
+        return "Fuck you son of bitch 🤬";
 
     if (text.includes("how are you"))
         return "I'm just code, but I'm doing great 😄";
