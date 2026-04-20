@@ -59,17 +59,23 @@ function removeTyping() {
 function getBotReply(text) {
     text = text.toLowerCase();
 
-    if (text.includes("hello") || text.includes("hi") || text.includes("hey"))
+    if (text.includes("hello") || text.includes("hi") || text.includes("hey") || text.includes("yo"))
         return "Hey there! 👋";
     
     if (text.includes("fuck"))
         return "Fuck you son of bitch 🤬";
+    
+    if (text.includes("ok"))
+        return "You need any another help 😺";
+    
+    if (text.includes("no thanks"))
+        return "We will meet again 🙋‍♂️";
 
     if (text.includes("how are you"))
         return "I'm just code, but I'm doing great 😄";
     
     if (text.includes("my name is"))
-        return "Pleasure meeting to you 👍";
+        return "Pleasure meeting to you 😊";
 
     if (text.includes("name"))
         return "I'm your AI assistant 🤖";
